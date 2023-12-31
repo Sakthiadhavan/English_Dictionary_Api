@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGLISH DICTIONARY</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- head navbar -->
+    <div id="header">
+        <div class="bn">SAKTHI'S DICTIONARY!</div>
+    </div>
+
+    <!-- conatiner -->
+    <div class="container">
+        <div class="er-activate none">
+            <ion-icon name="warning" style="transform: translateY(3px);"></ion-icon>
+            
+            <span>word shouln't be empty</span>
+        </div>
+        <input type="text" name="text" class="input" placeholder="Write a Word 🤗">
+        <br>
+        <button style="margin-top: 20px; margin-left: 25px;" class="btnclick" onclick="fetchapi()"> Find!</button>
+
+    </div>
+     
+
+    <!-- displaying area -->
+    <div class="gg">
+        <div id="fill" class="none" >
+            <div class="loader ">
+            <div class="square" id="sq1"></div>
+            <div class="square" id="sq2"></div>
+            <div class="square" id="sq3"></div>
+            <div class="square" id="sq4"></div>
+            <div class="square" id="sq5"></div>
+            <div class="square" id="sq6"></div>
+            <div class="square" id="sq7"></div>
+            <div class="square" id="sq8"></div>
+            <div class="square" id="sq9"></div>
+          </div>
+        </div>
+    </div>
+
+    <!-- foot -->
+    <div class="foot">
+        Designed and developed by sakthi
+    </div>
+
+</body>
+
+</html>
